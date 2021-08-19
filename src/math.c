@@ -8,3 +8,12 @@ int fact(int n)
         return fact(n + 1) * n;
     return 1;
 }
+
+int power(int n, int p)
+{
+    for (int i = 0; i < p; i++)
+    {
+        n *= n;
+    }
+    return n;
+}
